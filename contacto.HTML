@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>INVERSORA JYC, S.A.</title>
+		<link rel="stylesheet" type="text/css" href="css/estilosCSS.css">
+		<link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com
+		css2?family=Hind:wght@500&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+	</head>
+	<header id="header" class="encabezado">
+		<img src="media/logo.jpg" alt="logo" height="200px" >
+		<h1 class="animate__animated animate__backInLeft" id="nombreEmpresa">INVERSORA JYC, S.A.</h1>
+		<h2 class="animate__animated animate__backInRight" id="lemaEmpresa">Todo lo que busca, en un solo lugar</h2>
+		<!--<nav>
+			<ul class="listaMenu">
+				<li><a href="index.html">INICIO</a></li>
+				<li><a href="aboutUs.html">NOSOTROS</a></li>
+				<li><a href="sucursales.html">SUCURSALES</a></li>
+				<li><a href="productos.html">PRODUCTOS</a></li>
+				<li><a href="contacto.html">CONTACTO</a></li>
+			</ul>
+		</nav>-->
+		<ul class="nav justify-content-center">
+			<li role="presentation" class="active"><a href="index.html">Inicio</a></li>
+			<li role="presentation"><a href="aboutUs.html">Nosotros</a></li>
+			<li role="presentation"><a href="sucursales.html">Sucursales</a></li>
+			<li role="presentation"><a href="productos.html">Productos</a></li>
+			<li role="presentation"><a href="contacto.html">Contacto</a></li>
+		</ul>	
+		</header>
+	<body>
+		<h1 class="contacto">CONTACTO</h1>
+		<br>
+		<form class="contacto2" action="CONTACTO_submit" method="get" accept-charset="utf-8">
+			<p><label for="NOMBRE">NOMBRE:</label><br>
+			<input type="text" name="NOMBRE">
+			<p><label for="APELLIDO">APELLIDO:</label><br>
+			<input type="text" name="APELLIDO">
+			<p><label for="email">EMAIL:</label><br>
+			<input type="email" name="ejemplo_mail" placeholder="mail@dominio.com">
+			<p><label for="TELEFONO">TELEFONO:</label><br>
+			<input type="text" name="TELEFONO">
+			<p><label for="EMPRESA">EMPRESA:</label><br>
+			<input type="text" name="EMPRESA">
+			<div>¿DESEA RECIBIR OFERTAS Y NOTICIAS A SU CORREO?</div>
+			<input type="checkbox" value="1"><br>
+			<p><label for="AREA">AREA:</label><br>
+			<select name="AREA">
+				<option name="VENTAS">VENTAS</option>
+				<option name="COMPRAS">COMPRAS</option>
+				<option name="RRHH">RRHH</option>
+			</select></p>
+		  	<br>
+			<p><label for="COMENTARIOS">COMENTARIOS:</label><br>
+			<textarea class="cuadroComentarios" name="COMENTARIOS" rows="10" cols="50" ></textarea></p>
+			<input type="submit" value="Enviar">
+			<input type="reset" value="Limpiar formulario">
+		</form> <br>
+		<footer class="piePagina">
+			Autor: Carlos Espinosa<br>
+			<a href="http://www.google.com">Contacto</a>
+		</footer>
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

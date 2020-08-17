@@ -1,0 +1,261 @@
+#nombreEmpresa {
+	color:red; 
+	font-weight: bold;
+	font-family: 'Share Tech', sans-serif;
+	font-size: 60px;
+}
+
+#lemaEmpresa {
+	color: 	#582392;
+	font-size: 20px;
+	font-family: 'Hind', sans-serif;
+}
+
+header {
+	width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+.listaMenu{
+    width: auto;
+    float: right; 
+    background-color: #f0f0f0;
+    padding: 1px;
+    border-style: groove;
+    border-color: orange;
+    font-family: 'Hind', sans-serif;
+    transition: 0.2s;
+}
+
+.listaMenu:hover {
+	background-color: #CEF5F5;
+}
+
+li{
+    display: inline-block;
+    padding: 10px; 
+}
+
+.centrarTitulo {
+	text-align: center;
+	font-family: 'Hind', sans-serif;
+	font-size: 25px;
+	transition: all 0.2s;
+}
+
+.centrarTitulo:hover {
+	font-size: 45px;
+	font-weight: bold;
+}
+
+.fotosProductos {
+	margin: auto;
+  	width: 100%;
+	padding: 20px;
+	background-color: #e6eeff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#allen {
+	transition: all 0.2s;
+}
+
+#allen:hover {
+	height: 250px;
+
+}
+
+#cemento {
+	transition: all 0.2s;
+}
+
+#cemento:hover {
+	height: 300px;
+}
+
+#pintura {
+	transition: all 0.2s;
+}
+
+#pintura:hover {
+	height: 300px;
+}
+
+#taladro {
+	transition: all 0.2s;
+}
+
+#taladro:hover {
+	height: 250px;
+}
+
+.piePagina {
+	text-align: center;
+	padding: 10px;
+	background-color: #b4b4b4;
+}
+
+
+.datosEmpresa {
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Hind', sans-serif;
+	font-size: 25px;
+	margin: 80px;
+}
+
+.listado {
+	text-align: center;
+	display: block;
+}
+
+#tablaProductos {
+	display: grid;
+	grid-template-columns: repeat(6,auto);
+	grid-template-rows: repeat(4,auto);
+	grid-gap: 20px;
+	margin: 50px;
+	border: 3px solid black;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	background-color: #E6E4FD;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 20px;
+	padding: 0;
+}
+
+.contacto{
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Hind', sans-serif;
+	transition: 0.2s;
+}
+
+.contacto:hover {
+	font-size: 45px;
+	font-weight: bold;
+}
+
+.contacto2 {
+	text-align: center;
+	font-family: 'Hind', sans-serif;
+}
+
+#carrusel {
+  width:30%;
+  margin: 0 auto;
+}
+
+.lemaEmpresa {
+	color: 	#582392;
+	font-size: 30px;
+	font-family: 'Hind', sans-serif;
+}
+
+header {
+	width: 100%;
+    height: 100%;
+}
+
+.listaMenu{
+    width: auto;
+    float: right;  /*este sirve para ponerlo a la derecha*/
+    background-color: #f0f0f0;
+    padding: 1px;
+    border-style: groove;
+    border-color: orange;
+    font-family: 'Hind', sans-serif;
+}
+
+li{
+    display: inline-block; /*este sirve para ponerlo uno al lado del otro*/
+    padding: 10px;  
+}
+
+.cuadroComentarios {
+  resize: none;
+}
+
+@media(max-width: 576px){
+	.cuadroComentarios {
+		-webkit-box-sizing: border-box;
+    	-moz-box-sizing: border-box;
+    	box-sizing: border-box;	
+    	width: 80%;
+	}
+}
+
+#tituloSucursales {
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Hind', sans-serif;
+	transition: 0.2s;
+}
+
+#tituloSucursales:hover {
+	font-size: 45px;
+	font-weight: bold;
+}
+
+.sucursales {
+	font-size: 20px;
+	font-weight: normal;
+	font-family: 'Hind', sans-serif;
+}
+
+#ListadoProd {
+	font-size: 25px;
+	font-family: 'Hind', sans-serif;
+	text-align: center;
+	transition: 0.2s;
+}
+
+#ListadoProd:hover {
+	font-size: 45px;
+	font-weight: bold;
+}
+
+.tituloAbout {
+	text-align: center;
+	font-size: 25px;
+	transition: all 0.2s;
+	font-family: 'Hind', sans-serif;
+}
+
+.tituloAbout:hover {
+	font-size: 45px;
+	font-weight: bold;
+
+}
+
+.aboutUs {
+	display: grid;
+	grid-template-areas: 
+		"parrafo1 fotoVieja"
+		"parrafo2 fotoVieja";
+	grid-template-rows: 300px 300px;
+	grid-template-columns: 400px 400px;
+	justify-content: center;
+	font-size: 30px;
+}
+
+section#parrafo1 {
+	grid-area: parrafo1;
+}
+
+img#fotoVieja {
+	grid-area: fotoVieja;
+	justify-content: center;
+	align-items: center;
+}
+
+section#parrafo2 {
+	grid-area: parrafo2;
+}
+
